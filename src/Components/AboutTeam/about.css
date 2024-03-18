@@ -1,0 +1,127 @@
+
+.about-title {
+    text-align: center;
+    font-size: 40px;
+   
+    padding-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image:hover {
+    border-color: blue;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  padding: 0 30px;
+    box-shadow: 0 0 10px rgba(174, 162, 162, 0.5);
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+}
+
+.profile {
+    width: 250px;
+    height: 325px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    padding: 0 15px;
+       font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.status {
+    padding: 0 20px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+.about {
+    padding: 0 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+}
+.profile1{
+    object-fit: cover;
+   
+}
+.info-container img {
+    width: 250px; 
+    height: 150px; 
+    object-fit: cover;
+}
+@media (max-width:738px){
+    .info-container{
+        display:flex;
+        flex-direction:column;
+        gap: 20px;
+        height: 500px;
+        width: 90%;
+      padding: 0 15px;
+    }
+    .info-container img{
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        margin: 20px 40px 0;
+        border-radius: 10px;
+    }
+    .image{
+        width: 90px;
+        height: 90px;
+    }
+    .image img{
+        width: 80px;
+        height: 80px;
+    }
+    .about-title{
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
+    .image-container{
+        margin-top: 45px;
+    }
+    .name,.status,.about{
+        text-align: center;
+    }
+}

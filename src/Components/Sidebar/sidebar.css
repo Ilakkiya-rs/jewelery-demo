@@ -27,7 +27,7 @@
     background: lightgray;
     
 }
-button {
+.sidebar-button{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -38,6 +38,15 @@ button {
     border: none;
     cursor: pointer;
 }
-a {
+.links a{
     font-size: 35px;
+}
+@media (max-width:738px){
+    .sidebar .bg{
+        width: 200px;
+    }
+    .links a{
+        font-size: 20px;
+    }
+    
 }

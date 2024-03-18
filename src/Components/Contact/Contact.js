@@ -42,7 +42,7 @@ const Contact = () => {
         initial={{opacity:1}}
         whileInView={{opacity:0}}
         transition={{delay:2,duration:1}}>
-        <svg width="550px" height="550px" viewBox="0 0 32.666 32.666">
+        <svg width="350px" height="350px" viewBox="0 0 32.666 32.666">
             <motion.path
              strokeWidth={0.2} fill='none'
              initial={{pathLength:0}}

@@ -1,8 +1,9 @@
 import './App.css';
+import About from './Components/AboutTeam/About';
 import Contact from './Components/Contact/Contact';
+
 import Home from './Components/HomePage/Home';
 import Navbar from './Components/Navbar/Navbar'
-import Parallax from './Components/Parallax/Parallax';
 import Services from './Components/Services/Services';
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
        <Home/>
       </section>
       <section  id='Services'><Services/></section>
-      <section><Parallax type="we did"/></section>
-      <section  id='About'>Blockchain</section>
-      <section>IOT</section>
+      <section id='Works'></section>
+      <section  id='About'><About/></section>
       <section  id='Contact'><Contact/></section>
     </div>
   );

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import './sidebar.css'
 const ToggleButton = ({ setOpen }) => {
     return (
-        <button onClick={() => setOpen((prev) => !prev)}>
+        <button className='sidebar-button' onClick={() => setOpen((prev) => !prev)}>
             <svg width="23" height="23" viewBox='0 0  23 23'>
                 <motion.path
                     strokeWidth="3"

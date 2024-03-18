@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Facebook from '../../Assets/facebook.png'
 import Instagram from '../../Assets/instagram.png'
 import Sidebar from '../Sidebar/Sidebar'
+import Logo from '../../Assets/Logo.jpg'
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -13,6 +14,7 @@ const Navbar = () => {
         initial={{opacity:0,scale:0.5}}
         animate={{opacity:1,scale:1.5}}
         transition={{duration:0.5}}>
+          <img src={Logo} alt=''/>
           BQ-Tech
           </motion.span>
         <div className='social'>

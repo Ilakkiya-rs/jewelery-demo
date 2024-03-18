@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import Lottie from 'lottie-react';
+import Blockchain from '../../Assets/Animation.json';
 import './home.css'
 import scroll from '../../Assets/scroll.png'
 const textVariants={
@@ -63,7 +65,7 @@ const Home = () => {
                 BQTECH
             </motion.div>
             <div className='imageContainer'>
-                {/* <img src='' alt=''/> */}
+               <Lottie animationData={Blockchain} loop={true} className='lottie-image'/>
 
             </div>
 
