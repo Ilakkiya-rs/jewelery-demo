@@ -51,7 +51,7 @@ const Services = () => {
 Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs. Harness the power of decentralized ledgers to streamline operations and enhance trust in your transactions.</p>
 <div className='box-button'>Go</div></motion.div>
         <motion.div className='box' whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>3D Design</h2>
+          <h2>3D Printing</h2>
           <p>
           Elevate your projects with our cutting-edge 3D design services, crafted to bring your visions to life with precision and innovation. From concept to realization, we sculpt immersive experiences that redefine possibilities in architecture, gaming, and beyond.</p>
           <div className='box-button'>Go</div>

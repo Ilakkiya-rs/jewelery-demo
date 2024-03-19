@@ -1,6 +1,6 @@
 .contact {
     height: 100%;
-    max-width: 1150px;
+   width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@
                 text-align: center;
             }
         }
-
+        
     
 
 @media (max-width:738px) {
@@ -65,9 +65,11 @@
         width: 100%;
         padding: 10px;
         flex-direction: column;
+        margin-top: 30px;
+        height: auto;
     }
     .textContact{
-        gap: 20px;
+        gap: 6px;
         text-align: center;
         align-items: center;
         margin-top: 70px;
@@ -82,9 +84,17 @@
         padding: 10px;
     }
     .formContainer{
-        padding: 50px;
+        padding: 10px;
         width: 100%;
     }
-   
+    /* .phone-svg{
+        margin: 0;
+       
+    } */
+   .phone-svg svg{
+    width: 220px;
+    height: 220px;
+   margin: auto;
+   }
     
 }

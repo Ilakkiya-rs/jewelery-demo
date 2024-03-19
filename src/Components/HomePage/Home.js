@@ -64,10 +64,12 @@ const Home = () => {
     >
                 BQTECH
             </motion.div>
-            <div className='imageContainer'>
+            <motion.div className='imageContainer'  variants={textVariants}
+                initial="initial"
+                animate="animate">
                <Lottie animationData={Blockchain} loop={true} className='lottie-image'/>
 
-            </div>
+            </motion.div>
 
         </div>
     )

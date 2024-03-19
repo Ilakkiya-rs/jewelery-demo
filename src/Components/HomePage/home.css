@@ -79,26 +79,32 @@
 
 .slidingTextContainer {
     position: absolute;
-    font-size: 50vh;
-    bottom: -120px;
+    font-size: 40vh;
+    bottom: -80px;
     white-space: nowrap;
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
 }
 @media (max-width:738px){
+    
     .textContainer{
         height: 50%;
         width: 100%;
         gap: 20px;
         align-items: center;
         text-align: center;
+        margin:0;
     }
     .textContainer h1{
        font-size: 25px;
     }
+    .textContainer img{
+        width: 30px;
+        margin-right: 252px;
+    }
     .imageContainer{
-        height: 50%;
+        height: 40%;
         width: 100%;
         top: unset;
         bottom: 0;
@@ -108,6 +114,15 @@
         height: 100%;
         object-fit: cover;
         margin: 0 40px;
+    }
+    .slidingTextContainer{
+        bottom: -10px;
+        font-size: 10vh;
+    }
+    .buttons{
+        .button1,.button2{
+            padding: 11px 13px;
+        }
     }
     
 }

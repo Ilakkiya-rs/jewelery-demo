@@ -1,6 +1,6 @@
 .services{
-    background: linear-gradient(180deg,#0c0c1d,#111132);
-    height: 100%;
+    /* background: linear-gradient(180deg,#0c0c1d,#111132); */
+    height: 100vh;
     color: #ccc;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@
 .listContainer{
     flex: 2;
     display: flex;
-    max-width: 1336px;
+    max-width: 1266px;
     margin: auto;
 }
 .service-textContainer p{
@@ -89,6 +89,7 @@ hr{
         align-self: center;
         text-align: center;
         flex-direction: column;
+      padding-top: 20px;
     }
     hr{
         width: 300px;
@@ -96,7 +97,7 @@ hr{
     .title{
         text-align: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
     .titleContainer{
         width: 100%;
@@ -105,13 +106,15 @@ hr{
         font-size: 36px;
     }
     .title img{
-        width: 300px;
-        height: 50px;
+        width: 280px;
+        height: 60px;
+        padding-top: 7px;
     }
     .service-btn{
         font-size: 16px;
         width: 150px;
-        height: 50px;
+        height: 30px;
+        margin-bottom: 5px;
     }
     .listContainer{
         flex-direction: column;
@@ -124,15 +127,22 @@ hr{
         color: orange;
         width: 50%;
         padding: 5px;
+        display: none;
     }
     .box{
-        border: none;
+      
         align-items: center;
-        gap: 20px;
-        padding: 20px;
+        padding: 10px;
+        margin: 10px;
     }
-    .listContainer p{
+    /* .listContainer p{
         display: none;
+    } */
+    .service-textContainer p{
+        font-size: 15px;
+    }
+    hr{
+        width: 250px;
     }
 }
 

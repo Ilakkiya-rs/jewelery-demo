@@ -19,6 +19,7 @@ const Contact = () => {
     const ref=useRef();
     const isInView=useInView(ref,{margin:"-100px"});
   return (
+    <>
     <motion.div 
     ref={ref}
         className='contact' variants={variants} initial='initial' whileInView='animate'>
@@ -62,6 +63,11 @@ const Contact = () => {
         </motion.form>
       </div>
     </motion.div>
+    <div className='footer'>
+   Copyright &copy; 2024, BQTech 
+      
+    </div>
+    </>
   )
 }
 
