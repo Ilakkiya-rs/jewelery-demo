@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/HomePage/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Services from './Components/Services/Services';
-import Whatsapp from '../src/Assets/Whatsapp.png'
+import Whatsapp from '../src/Assets/pngimg.com - whatsapp_PNG1.png'
 function App() {
   return (
     <>
