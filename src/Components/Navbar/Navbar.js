@@ -15,7 +15,7 @@ const Navbar = () => {
         animate={{opacity:1,scale:1.5}}
         transition={{duration:0.5}}>
           <img src={Logo} alt=''/>
-          BQ-Tech
+          BQTech
           </motion.span>
         <div className='social'>
             <a href=''><img src={Instagram} alt=''/></a>

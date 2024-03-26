@@ -36,8 +36,10 @@ const Sidebar = () => {
 
   return (
     <motion.div className='sidebar' animate={open ? "open" : "closed"}>
-      <motion.div className='bg' variants={variants}>
+      <motion.div className='whole-bg' onClick={()=> setOpen(false)} >      
+      <motion.div className='bg' variants={variants} >
         <Links handleClose={closeSidebar} />
+      </motion.div>
       </motion.div>
       <ToggleButton setOpen={toggleSidebar} />
     </motion.div>

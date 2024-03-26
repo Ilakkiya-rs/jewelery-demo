@@ -6,6 +6,9 @@ import Home from './Components/HomePage/Home';
 import Navbar from './Components/Navbar/Navbar'
 import Services from './Components/Services/Services';
 import Whatsapp from '../src/Assets/pngimg.com - whatsapp_PNG1.png'
+import IOTRFID from './Components/IOT-RFID/IOT-RFID';
+
+
 function App() {
   return (
     <>
@@ -25,10 +28,12 @@ function App() {
        <Home/>
       </section>
       <section  id='Services'><Services/></section>
-      <section id='Works'></section>
+     
       <section  id='About'><About/></section>
       <section  id='Contact'><Contact/></section>
-      
+    
+     <IOTRFID/>
+     
       
     </div>
     </>

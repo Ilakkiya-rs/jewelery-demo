@@ -45,7 +45,7 @@ const Services = () => {
       </motion.div>
       <motion.div className='listContainer' variants={variants}>
         <motion.div className='box' whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blockchain</h2>
+          <h2>Usecases</h2>
           <p>
             
 Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs. Harness the power of decentralized ledgers to streamline operations and enhance trust in your transactions.</p>

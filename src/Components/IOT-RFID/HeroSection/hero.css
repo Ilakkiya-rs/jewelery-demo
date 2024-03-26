@@ -1,0 +1,111 @@
+.iot-herosection{
+    padding-top: 7%;
+    position: relative;
+    width: 100%;
+    
+   
+}
+.iot-title{
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    /* text-shadow: 3px 3px 3px rebeccapurple; */
+}
+.title__separete{
+  margin:10px  auto;
+  width: 10%;
+  height: 1px;
+  background-color: #fff;
+ 
+ /* margin-left: 7%; */
+  z-index: 999;
+}
+.iot-gif{
+    padding-top: 30px;
+}
+.iot-gif img{
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    padding: 30px;
+  } 
+  .hero-title{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .hero-button{
+    border: 2px solid #ccc;
+    padding: 6px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  .iot-herocontent{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .hero-button:hover{
+    background-color: #ccc;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(46, 33, 93)
+  }
+
+@media screen and (max-width:700px){
+    .iot-herosection{
+        padding-top: 17%;
+    }
+    .iot-title{
+        font-size: 21px;
+    }
+    .iot-gif{
+        padding-top: 20px;
+    }
+    .iot-gif img{
+        height: 82vh;
+    }
+    .overlay{
+      width: 80%;
+    
+      padding: 15px;
+    }
+    .hero-title{
+      font-size: 21px;
+     
+    }
+    .iot-herocontent{
+      font-size: 15px;
+    
+    }
+    .hero-button{
+      width: 50%;
+      border-radius: 3px;
+  }
+  .title__separete{
+    width: 40%;
+  }
+}
+@media (min-width:701px) and (max-width: 1024px){
+  .iot-herosection{
+    padding-top: 11%;
+  }
+  .overlay{
+    width: 80%;
+  
+    padding: 15px;
+  }
+}

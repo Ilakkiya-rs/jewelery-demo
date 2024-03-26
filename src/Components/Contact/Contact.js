@@ -1,6 +1,7 @@
 import React,{useRef} from 'react'
 import {motion,useInView } from 'framer-motion'
 import './contact.css'
+import Footer from '../Footer/Footer'
 const variants={
     initial:{
         y:500,
@@ -63,10 +64,8 @@ const Contact = () => {
         </motion.form>
       </div>
     </motion.div>
-    <div className='footer'>
-   Copyright &copy; 2024, BQTech 
-      
-    </div>
+    <Footer/>
+    
     </>
   )
 }
