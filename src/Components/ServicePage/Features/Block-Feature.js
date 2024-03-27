@@ -1,6 +1,6 @@
 import React from 'react'
 import './feature.css'
-const Feature = () => {
+const BlockFeature = () => {
     return (
         <div className='feature-section'>
             <h1>Features
@@ -10,38 +10,38 @@ const Feature = () => {
         <div className='feature-card'>
            
             <div className='cards'>
-                <img src='https://cdn-icons-png.flaticon.com/128/11682/11682129.png' alt='' />
+                <img src='https://cdn-icons-png.flaticon.com/128/5901/5901844.png' alt='' />
                 <div className='card-content'>
-                    <h2>Enhanced Connectivity:</h2>
+                    <h2>Decentralization:</h2>
                     <p>
-                        Connect and manage devices remotely for improved efficiency.
+                    Eliminate the need for central authorities and intermediaries.
                     </p>
                 </div>
             </div>
             <div className='cards'>
-                <img src='https://cdn-icons-png.flaticon.com/128/10179/10179168.png' alt='' />
+                <img src='https://cdn-icons-png.flaticon.com/128/12350/12350577.png' alt='' />
                 <div className='card-content'>
-                <h2>Data Insights:</h2>
+                <h2>Immutability:</h2>
                 <p>
-                    Gain valuable insights from real-time data collected by IoT sensors.
+                Ensure the integrity and security of data with tamper-proof records.
                 </p>
                 </div>
             </div>
             <div className='cards'>
-                <img src='https://cdn-icons-png.flaticon.com/128/10492/10492513.png' alt='' />
+                <img src='https://cdn-icons-png.flaticon.com/128/4371/4371115.png' alt='' />
                 <div className='card-content'>
-                <h2>Automation: </h2>
+                <h2>Transparency: </h2>
                 <p>
-                    Automate processes and streamline operations to reduce manual effort.
+                Facilitate transparent transactions and audit trails.
                 </p>
                 </div>
             </div>
             <div className='cards'>
-                <img src='https://cdn-icons-png.flaticon.com/128/13063/13063175.png' alt='' />
+                <img src='https://cdn-icons-png.flaticon.com/128/6229/6229568.png' alt='' />
                 <div className='card-content'>
-                <h2>Scalability: </h2>
+                <h2>Smart Contracts: </h2>
                 <p>
-                    Easily scale your IoT infrastructure to accommodate growth and expansion.
+                   Automate agreements and enforce contract terms without intermediaries.
                 </p>
             </div>
         </div>
@@ -50,4 +50,4 @@ const Feature = () => {
   )
 }
 
-export default Feature
+export default BlockFeature

@@ -157,7 +157,7 @@ justify-content: center;
 }
 .footer-links li:hover{
   color: rgb(49, 49, 104);
-  font-weight: 800;
+  
 }
 @keyframes shake {
   10% {

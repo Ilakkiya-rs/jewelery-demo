@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import './testimonial.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-export default function App() {
+export default function IOTClient() {
   return (
     <div className='testimonial'>
     <h1>

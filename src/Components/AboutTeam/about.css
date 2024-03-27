@@ -1,4 +1,7 @@
-
+.AboutTeam{
+    margin-top: 8%;
+    height: 80vh !important;
+}
 .about-title {
     text-align: center;
     font-size: 40px;

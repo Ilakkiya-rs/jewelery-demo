@@ -22,7 +22,7 @@ const About = () => {
     };
 
     return (
-        <div className='About'>
+        <div className='AboutTeam'>
             <h2 className='about-title'>Our Team</h2>
             <div className='image-container'>
                 {profiles.map((profile, index) => (
