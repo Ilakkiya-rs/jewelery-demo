@@ -18,7 +18,9 @@ const Product1 = () => {
 
     return (
         <div className='product-design'>
+            
             <div className="gallery-container">
+            <h1>Product 1</h1>
                 <div className="main-picture">
                     <img src={mainImage} alt="Main Picture" />
                 </div>

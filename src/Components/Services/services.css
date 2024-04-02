@@ -148,7 +148,11 @@ hr{
     transform: translateY(-50px);
     box-shadow: 0 10px 40px rgba(0,0,0,0.2);
     background-image: linear-gradient(to right top, #7678ed, #817fda, #8a86c6, #908db2, #95949e);
+   
     /* background:linear-gradient(45deg,#b95ce4,#4f29cd); */
+}
+.listContainer .card:hover .content p{
+    color: #fff;
 }
 .content h3{
     font-size: 1.8em;
