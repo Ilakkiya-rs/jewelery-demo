@@ -1,0 +1,152 @@
+
+.filter-container {
+    display: flex;
+    gap: 50px;
+   
+  }
+  
+  .filter-sidebar {
+    /* position: fixed ; */
+    float: left;
+    width: 20%;
+    background:#ccc;
+    color: #000;
+   padding: 0 50px;
+   text-align: left;
+ /* height: 100vh; */
+  }
+ .filter-sidebar h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+ }
+ 
+  .filter-options input[type="radio"] {
+    cursor: pointer;
+ }
+  .filter-label{
+    padding: 10px;
+     
+  }
+  
+  .filter-options {
+    margin-top: 20px;  
+   
+    display: flex;
+    flex-direction: column;
+  }
+  .catalog {
+    float: left;
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin: 20px 40px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width:100%;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .catalog{
+    display: flex;
+    /* margin-left: 20%; */
+    overflow-y: scroll;
+    height: 900px;
+  }
+.catalog p{
+    height: 2.8rem;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.4;
+    letter-spacing: .05em;
+    overflow: hidden;
+    padding: 10px;
+}
+.product-card {
+    position: relative;
+  }
+  
+  .detail-button {
+    display: none;
+    position: absolute;
+  width: 150px;
+  margin: 5px 60px;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .product-card:hover .detail-button {
+    display: block; 
+  }
+  input[type="checkbox" i] {
+   display: none;
+}
+  /* Checkbox container */
+.filter-label {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+  }
+  
+  
+  .checkbox-custom {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 25px; 
+    height: 25px; 
+    border: 2px solid #ccc;
+    border-radius: 30%; 
+    background-color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Checkmark */
+  .checkbox-custom::after {
+    content: "\2713"; 
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 18px; 
+    color: #000;
+    font-weight: 900;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .filter-label input[type="checkbox"]:checked + .checkbox-custom::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  @media screen and (max-width: 700px){
+    .filter-sidebar{
+      display: none;
+    }
+    .catalog{
+      width: 100%;
+    }
+  }

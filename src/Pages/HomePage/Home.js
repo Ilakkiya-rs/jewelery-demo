@@ -4,6 +4,7 @@ import Contact from '../../Components/Contact/Contact';
 import Home from '../../Components/HomePage/Home';
 import Navbar from '../../Components/Navbar/Navbar'
 import Services from '../../Components/Services/Services';
+import Layout from '../../Components/Layout/Layout';
 
 function HomePage() {
     return (
@@ -13,6 +14,7 @@ function HomePage() {
                 <Home />
             </section>
             <section id='Services'><Services /></section>
+            <section id='OurProducts'><Layout /></section>
             <section id='About'><About /></section>
             <section id='Contact'><Contact /></section>
         </div>

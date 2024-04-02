@@ -2,7 +2,7 @@ import React from 'react'
 import './feature.css'
 const BlockFeature = () => {
     return (
-        <div className='feature-section'>
+        <div className='feature-section' id="features">
             <h1>Features
             <div className="title__separete"></div>
             </h1>

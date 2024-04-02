@@ -23,7 +23,7 @@ const Contact = () => {
     <>
     <motion.div 
     ref={ref}
-        className='contact' variants={variants} initial='initial' whileInView='animate'>
+        className='contact' >
       <motion.div className='textContact' variants={variants}>
         <motion.h1>Let's work together</motion.h1>
         <motion.div className='item'>

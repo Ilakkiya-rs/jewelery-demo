@@ -6,7 +6,7 @@ const BlockWork = () => {
     
 
     return (
-        <div className='how-it-works'>
+        <div className='how-it-works' id="blockchain-works">
             <h1>Crypto Chronicles: Navigating the Blockchain Frontier</h1>
             <div className="title__separete"></div>
             <div className='worksection'>

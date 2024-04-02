@@ -2,7 +2,7 @@ import React from 'react'
 import '../Features/feature.css'
 const BlockUsecases = () => {
     return (
-        <div className='feature-section'>
+        <div className='feature-section' id='use-cases'>
             <h1>usecases
                 <div className="title__separete"></div>
             </h1>

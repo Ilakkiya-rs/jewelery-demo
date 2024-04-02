@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import IOTLogo from '../../../Assets/Logo.jpg'
 import './nav.css'
+import { HashLink as Link } from 'react-router-hash-link'
 const NavItem = () => {
   const[color,Setcolor]=useState(false);
   const changeColor=()=>{
@@ -18,9 +19,9 @@ const NavItem = () => {
             <img src={IOTLogo} alt=''/>
         </div>
         <div className='iot-navItems'>
-            <a href=''>Features</a>
-            <a href=''>How it works?</a>
-            <a href=''>Use Cases</a>
+        <a href='#features'>Features</a>
+            <a href='#blockchain-works'>About</a>
+            <a href='#use-cases'>Use Cases</a>
         </div>
       
     </div>

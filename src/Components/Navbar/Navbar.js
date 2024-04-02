@@ -17,10 +17,10 @@ const Navbar = () => {
           <img src={Logo} alt='' />
           BQTech
         </motion.span>
-        <div className='social'>
+        {/* <div className='social'>
           <a href=''><img src={Instagram} alt='' /></a>
           <a href=''><img src={Facebook} alt='' /></a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

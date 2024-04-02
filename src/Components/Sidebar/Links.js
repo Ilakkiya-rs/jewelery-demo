@@ -28,7 +28,7 @@ const ItemVariants = {
 };
 
 const Links = ({ handleClose }) => {
-  const items = ["HomePage", "Services", "Works", "About", "Contact"];
+  const items = ["HomePage", "Services","OurProducts",  "About", "Contact"];
 
   const handleClick = () => {
     handleClose(); 

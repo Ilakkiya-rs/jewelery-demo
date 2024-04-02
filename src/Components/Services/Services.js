@@ -46,26 +46,38 @@ const Services = () => {
 
       </motion.div>
       <motion.div className='listContainer' variants={variants}>
-        <motion.div className='box' whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blockchain</h2>
-          <p>
+        <div className='card'>
+          <div className='box'>
+            <div className='content'>
+              <h2>01</h2>
+              <h3>Blockchain</h3>
+              <p>
+                Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs.</p>
+              <div className='box-button' onClick={() => navigate("/blockchain-page")}>Read More</div></div>
+          </div>
+        </div>
+        <div className='card'>
+          <div className='box'>
+            <div className='content'>
+              <h2>02</h2>
+              <h3>3D Printing</h3>
+              <p>
+                Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs.</p>
+              <div className='box-button'>Read More</div></div>
+          </div>
 
-            Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs. Harness the power of decentralized ledgers to streamline operations and enhance trust in your transactions.</p>
-          <div className='box-button' onClick={() =>  navigate("/blockchain-page") }>Go</div></motion.div>
-        <motion.div className='box' whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>3D Printing</h2>
-          <p>
-            Elevate your projects with our cutting-edge 3D design services, crafted to bring your visions to life with precision and innovation. From concept to realization, we sculpt immersive experiences that redefine possibilities in architecture, gaming, and beyond.</p>
-          <div className='box-button'>Go</div>
-        </motion.div>
-        <motion.div className='box' whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>IOT</h2>
-          <p>
-            Empower your devices with our IoT solutions, seamlessly connecting and optimizing your network for efficiency and intelligence. From smart homes to industrial automation, we tailor innovative IoT strategies to amplify productivity and unlock new realms of connectivity.</p>
-          <div className='box-button' onClick={() =>  navigate("/iot-page") }>Go</div>
-        </motion.div>
+        </div>
+        <div className='card'>
+          <div className='box'>
+            <div className='content'>
+              <h2>03</h2>
+              <h3>IOT</h3>
+              <p>
+                Unlock the potential of blockchain technology with our services, providing secure and transparent solutions for your business needs.</p>
+              <div className='box-button' onClick={() => navigate("/iot-page")}>Read More</div></div>
+          </div>
 
-
+        </div>
 
       </motion.div>
     </motion.div>

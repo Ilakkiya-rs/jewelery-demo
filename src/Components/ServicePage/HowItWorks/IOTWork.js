@@ -6,7 +6,7 @@ const IOTWork = () => {
     
 
     return (
-        <div className='how-it-works'>
+        <div className='how-it-works' id="iot-works">
             <h1>Welcome to the Era of Connected Intelligence!</h1>
             <div className="title__separete"></div>
             <div className='worksection'>

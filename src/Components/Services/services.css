@@ -26,15 +26,14 @@
     width: 180px;
     height: 60px;
     border-radius: 50px;
-    background-color: orange;
+    background-image: linear-gradient(to right top, #95949e, #7c7a94, #646089, #4c487e, #323073);
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: black;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
     font-size: 17px;
 }
 .title img{
@@ -50,17 +49,19 @@
     align-items: center;
 }
 
-.listContainer{
+/* .listContainer{
     flex: 2;
     display: flex;
     max-width: 1266px;
     margin: auto;
 }
 .listContainer h2{
-    color: orange;
-}
+    color:  #007bff;
+    text-align: center;
+    margin: 10px;
+} */
 .title h1:hover{
-color: orange;
+color: #42a5f6;
 }
 .service-textContainer p{
     font-weight: 200;
@@ -73,23 +74,109 @@ hr{
     border: none;
     border-top: 0.5px solid gray;
 }
-.box{
+/* .box{
     padding: 30px;
     border: 0.5px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
-}
-.box-button{
+} */
+/* .box-button{
     padding: 7px;
-    background: orange;
+    background: gray;
     border: none;
     cursor: pointer;
     text-align: center;
     border-radius: 3px;
     color: #000;
+} */
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 60px;
+    flex-wrap: wrap;
+    padding: 40px 10px;
 }
+.listContainer .card{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+    inset -5px -5px 5px rgba(255,255,255,0.5),
+    5px 5px 5px rgba(255,255,255,0.05),
+    -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin: 30px;
+}
+.listContainer .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #ebf5fc;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.listContainer .content{
+    padding: 20px;
+    text-align: center;
+   
+}
+.listContainer .content h2{
+    position: absolute;
+    
+    top: -10px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0,0,0,0.05);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.listContainer .card:hover .box .content h2{
+   
+    color: rgba(0,0,0,0.05);
+}
+.listContainer .card:hover .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background-image: linear-gradient(to right top, #7678ed, #817fda, #8a86c6, #908db2, #95949e);
+    /* background:linear-gradient(45deg,#b95ce4,#4f29cd); */
+}
+.content h3{
+    font-size: 1.8em;
+    color: #42a5f6;
+    z-index:1;
+    transition: 0.5s;
+}
+.content p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #000;
+    z-index: 1;
+    transition: 0.5s;
+}
+.box-button{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.02);
+    cursor: pointer;
+}
+
 @media (max-width:738px){
     .service-textContainer{
         align-self: center;
@@ -126,15 +213,29 @@ hr{
         margin-bottom: 5px;
     }
     .listContainer{
+        padding: 10px;
+        gap: 0;
+    }
+    .listContainer .card{
+     
+        height: 350px;
+    }
+    .listContainer .content h2 {
+        position: absolute;
+        top: -16px;
+        right: 9px;
+    }
+    /* .listContainer{
         flex-direction: column;
         width: 100%;
     }
     .box-button{
         background-color: transparent;
-        border: 1px solid orange;
+        border: 1px solid #ccc;
         border-radius: 5px;
-        color: orange;
-        width: 50%;
+        color: #fff;
+        width: 80%;
+        background: gray;
         padding: 5px;
        
     }
@@ -143,7 +244,7 @@ hr{
         align-items: center;
         padding: 10px;
         margin: 10px;
-    }
+    } */
     /* .listContainer p{
         display: none;
     } */

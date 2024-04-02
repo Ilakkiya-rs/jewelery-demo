@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom
 import IOTPage from './Components/ServicePage/IOT';
 import BlockchainPage from './Components/ServicePage/Blockchain';
 import HomePage from './Pages/HomePage/Home';
+import ProductCategories from './Components/OurProduct/ProductCategories';
+import Product1 from './Components/OurProduct/ProductDesign/Product1';
 
 
 function App() {
@@ -21,7 +23,12 @@ function App() {
           <Route exact path="/" element={<HomePage />} />
           <Route path='/iot-page' element={<IOTPage />} />
           <Route path='/blockchain-page' element={<BlockchainPage />} />
+          <Route path='/product-categories' element={<ProductCategories/>} />
+          <Route path='/product1' element={<Product1/>} />
         </Routes>
+      
+
+
       </div>
 
     </>
