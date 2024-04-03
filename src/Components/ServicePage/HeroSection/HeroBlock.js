@@ -4,7 +4,7 @@ const HeroBlock = () => {
   return (
     <div className='iot-herosection'>
       <div className='iot-title'>
-      Discover the Potential of Blockchain Technology"
+      Discover the Potential of Blockchain Technology
       </div>
       <div className="title__separete"></div>
       <div className='iot-hero'>

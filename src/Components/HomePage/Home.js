@@ -4,6 +4,7 @@ import Lottie from 'lottie-react';
 import Blockchain from '../../Assets/Animation.json';
 import './home.css'
 import scroll from '../../Assets/scroll.png'
+import { useNavigate } from "react-router-dom"
 const textVariants = {
     initial: {
         x: -500,
@@ -41,6 +42,7 @@ const sliderVariants = {
 };
 
 const Home = () => {
+    let navigate = useNavigate()
     return (
         <div className='home'>
             <div className='wrap'>
@@ -49,11 +51,11 @@ const Home = () => {
                     animate="animate"
                 >
                     <motion.h2 variants={textVariants}>Join. Explore. Evolve.</motion.h2>
-                    <Lottie animationData={Blockchain} loop={true} className='blockchain-image' />
+                    <Lottie animationData={Blockchain} loop={true} className='homepage-image' />
                     <motion.h1 variants={textVariants}>Unraveling the mysteries of tomorrow with Blockchain's encryption and IoT's communication.</motion.h1>
                     <motion.div variants={textVariants} className='buttons'>
-                        <motion.div variants={textVariants} className='button1'>See the Latest Works</motion.div>
-                        <motion.div variants={textVariants} className='button2'>Contact Us</motion.div>
+                        <motion.div variants={textVariants} className='button1' onClick={() => navigate("/product-categories")}>See the Latest Products</motion.div>
+                        <motion.div variants={textVariants} className='button2'onClick={() => navigate("/calendly")}>Meeting Scheduler</motion.div>
                     </motion.div>
                     <motion.img variants={textVariants} animate='scrollButton' src={scroll} alt='' />
                 </motion.div>

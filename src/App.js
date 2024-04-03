@@ -6,6 +6,7 @@ import BlockchainPage from './Components/ServicePage/Blockchain';
 import HomePage from './Pages/HomePage/Home';
 import ProductCategories from './Components/OurProduct/ProductCategories';
 import Product1 from './Components/OurProduct/ProductDesign/Product1';
+import Calendly from './Components/Calendly/Calendly';
 
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
           <Route path='/iot-page' element={<IOTPage />} />
           <Route path='/blockchain-page' element={<BlockchainPage />} />
           <Route path='/product-categories' element={<ProductCategories/>} />
+          <Route path='/calendly' element={<Calendly/>} />
           <Route path='/product1' element={<Product1/>} />
+          
         </Routes>
       
 

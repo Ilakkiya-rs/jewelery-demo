@@ -35,7 +35,7 @@
 
 .buttons {
     display: flex;
-
+    cursor: pointer;
     .button1 {
         padding: 15px 20px;
         border: 1px solid white;
@@ -45,8 +45,9 @@
                     height: 50px; */
         color: #fff;
         background: transparent;
-        cursor: pointer;
-        font-weight: 300;
+        /* cursor: pointer; */
+        
+        font-size: 16px;
     }
 
     .button2 {
@@ -58,8 +59,9 @@
                     height: 50px; */
         color: #000;
         background: #fff;
-        cursor: pointer;
-        font-weight: 600;
+        font-size: 16px;
+        /* cursor: pointer; */
+        
     }
 }
 
@@ -79,14 +81,14 @@
 
 .slidingTextContainer {
     position: absolute;
-    font-size: 34vh;
+    font-size: 30vh;
     bottom: -40px;
     white-space: nowrap;
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
 }
-.textContainer .blockchain-image{
+.textContainer .homepage-image{
     display: none;
 }
 @media (max-width:738px){
@@ -97,13 +99,15 @@
         gap: 5px;
         align-items: center;
         text-align: center;
-        margin:20px 10px;
+        margin:10px 5px;
     }
     .textContainer h1{
-       font-size: 23px;
+       font-size: 20px;
+       padding: 6px;
     }
     .textContainer h2{
-        font-size: 30px;
+        font-size: 28px;
+        letter-spacing: 4px;
     }
     .textContainer img{
         width: 40px;
@@ -114,8 +118,9 @@
         display: none;
         height: 0;
     }
-    .textContainer .blockchain-image{
+    .textContainer .homepage-image{
         display: block;
+        height: 65%;
     }
     /* .imageContainer{
         height: 40%;
@@ -140,4 +145,13 @@
         }
     }
     
+}
+@media (min-width:720px) and (max-width: 1100px){
+    .slidingTextContainer{
+        bottom: 15px;
+        font-size: 10vh;
+    }
+    .imageContainer{
+        top: 136px;
+    }
 }

@@ -96,6 +96,7 @@ const FilteredCatalog = () => {
             <h3>{product.name}</h3>
             <p>{product.about}</p>
             <div className="detail-button" >Details</div>
+            <div className="line__separete"></div>
           </div>
         ))}
       </div>

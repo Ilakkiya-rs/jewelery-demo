@@ -35,7 +35,7 @@
    width: 60%;
 }
 .cards:hover{
-    box-shadow: -5px 5px 5px -5px #ccc;
+    box-shadow: 2px 2px 4px 4px #ccc;
 }
 .cards img{
     width: 80px;

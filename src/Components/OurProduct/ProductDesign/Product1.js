@@ -21,6 +21,7 @@ const Product1 = () => {
             
             <div className="gallery-container">
             <h1>Product 1</h1>
+            <div className="line__separete"></div>
                 <div className="main-picture">
                     <img src={mainImage} alt="Main Picture" />
                 </div>

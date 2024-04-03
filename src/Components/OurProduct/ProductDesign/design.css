@@ -58,6 +58,7 @@
     text-align: center;
  }
  
+ 
 @media (max-width:700px){
   .product-design{
     display: flex;
@@ -75,8 +76,17 @@
   .gallery-container{
     width: 100%;
   }
+  .gallery-container h1{
+    margin: 10px;
+  }
+  .gallery-container .line__separete{
+    margin-bottom: 50px;
+    margin-top: 0;
+    width: 30%;
+  }
   .thumbnail{
       width: 50px; 
     height: 50px; 
   }
+  
 }

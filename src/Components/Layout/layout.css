@@ -125,10 +125,11 @@
     font-size: 55px;
     text-transform: uppercase;
 }
-p {
+.layout-container p{
     font-size: 18px;
     color: #888888;
     line-height: 26px;
+    padding-right: 71px;
     
 }
 .layout-button {padding-right: 72px;
