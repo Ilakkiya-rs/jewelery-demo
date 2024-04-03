@@ -148,5 +148,7 @@
     }
     .catalog{
       width: 100%;
+      overflow-y: hidden;
+      height: auto;
     }
   }

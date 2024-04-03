@@ -294,10 +294,16 @@
       width: 85% !important;
       height: 74vw;
       /* margin-left: 90px; */
-      margin-top: 48vh;
+      margin-top: 44vh;
       z-index: 3;
     }
     .hero-cont-block{
       display: none;
+    }
+    .hero{
+      height: 85vh;
+    }
+    .text-block{
+      top: 9vh;
     }
 }
