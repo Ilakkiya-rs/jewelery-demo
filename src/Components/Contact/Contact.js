@@ -28,7 +28,7 @@ const Contact = () => {
         <motion.h1>Let's work together</motion.h1>
         <motion.div className='item'>
             <motion.h2>Mail</motion.h2>
-            <motion.span>ilakkiya@bqtech.in</motion.span>
+            <motion.span>ilakki@gmail.com</motion.span>
         </motion.div>
         <motion.div className='item'>
             <motion.h2>Address</motion.h2>

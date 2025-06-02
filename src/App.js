@@ -14,7 +14,7 @@ function App() {
     <>
       <div className='whatsapp'>
         <a
-          href="https://wa.me/9829779890"
+          href="https://wa.me/12345678"
           title="Chat with us on WhatsApp">
           <img src={Whatsapp} alt='' />
         </a>
